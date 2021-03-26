@@ -29,7 +29,7 @@ export default function Layout({ children, home }) {
           <>
             <img
               src="/images/profile.jpg"
-              class={utilStyles.borderCircle}
+              className={utilStyles.borderCircle}
               heigh={144}
               width={144}
               alt={name}
@@ -42,7 +42,7 @@ export default function Layout({ children, home }) {
               <a>
                 <img
                   src="/images/profile.jpg"
-                  class={utilStyles.borderCircle}
+                  className={utilStyles.borderCircle}
                   height={108}
                   width={108}
                   alt={name}
