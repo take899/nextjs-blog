@@ -1,3 +1,9 @@
+const appName = "nextjs-blog";
+const isProd = process.env.NODE_ENV === "production";
+
 module.exports = {
-  basePath: process.env.NODE_ENV === "production" ? "/nextjs-blog" : ""
-};
+  basePath: isProd ? `/${appName}` : "",
+  env: {
+    basePath: isProd ? `/${appName}` : "",
+  }
+}
